@@ -1,0 +1,61 @@
+
+@font-face{
+font-family:"univers-220";
+src:url("Univers/37e2ceaf-690a-4fba-9dee-e4da7e65881f.eot?#iefix");
+src:url("Univers/37e2ceaf-690a-4fba-9dee-e4da7e65881f.eot?#iefix") format("eot"),url("Univers/0d49ae9d-80c6-4f18-a3b3-865b7cf482e3.woff") format("woff"),url("Univers/8f75926a-1e49-4d1e-8fd5-470dbfe71175.ttf") format("truetype"),url("Univers/7fff0162-340c-455e-b224-0e90cf530348.svg#7fff0162-340c-455e-b224-0e90cf530348") format("svg");
+}
+@font-face{
+font-family:"univers-230";
+src:url("Univers/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix");
+src:url("Univers/04b3c812-2234-45b5-af16-18a0f70cf1df.eot?#iefix") format("eot"),url("Univers/bc35730a-e839-4dc2-b89f-92575ffec5c1.woff") format("woff"),url("Univers/20588565-aa56-46ce-8d7c-6b5f77df85f9.ttf") format("truetype"),url("Univers/06090cbd-08cf-40ac-bd19-62c4bc5ed718.svg#06090cbd-08cf-40ac-bd19-62c4bc5ed718") format("svg");
+}
+@font-face{
+font-family:"univers-320";
+src:url("Univers/e89379d2-2604-41ab-911f-cc89f3e4b49b.eot?#iefix");
+src:url("Univers/e89379d2-2604-41ab-911f-cc89f3e4b49b.eot?#iefix") format("eot"),url("Univers/05281082-43bf-47ac-a97c-cc09f6ee97b7.woff") format("woff"),url("Univers/dd6ae40f-c627-430f-b5d0-bcdbf4a4d784.ttf") format("truetype"),url("Univers/0b859b66-b397-42f4-acab-f689f771ca1e.svg#0b859b66-b397-42f4-acab-f689f771ca1e") format("svg");
+}
+@font-face{
+font-family:"univers-420";
+src:url("Univers/06f2633b-1a3a-49a6-8c6d-cc96680c40fe.eot?#iefix");
+src:url("Univers/06f2633b-1a3a-49a6-8c6d-cc96680c40fe.eot?#iefix") format("eot"),url("Univers/8879382d-addd-4463-af97-c743889f5eae.woff") format("woff"),url("Univers/9c87416c-6146-430d-96ec-ea221bbec465.ttf") format("truetype"),url("Univers/f69c8a4d-a4e3-44f4-bfa4-96121e3aefae.svg#f69c8a4d-a4e3-44f4-bfa4-96121e3aefae") format("svg");
+}
+@font-face{
+font-family:"univers-830";
+src:url("Univers/1d8675f1-c2f5-4a45-add2-e38a11a6bd2f.eot?#iefix");
+src:url("Univers/1d8675f1-c2f5-4a45-add2-e38a11a6bd2f.eot?#iefix") format("eot"),url("Univers/c1c74fc9-5f5a-463b-95a3-22ce307ba209.woff") format("woff"),url("Univers/db83cbb7-726e-42dc-9a60-eb229e41e0e3.ttf") format("truetype"),url("Univers/5c555532-717b-44bf-a351-0bf47345d6f5.svg#5c555532-717b-44bf-a351-0bf47345d6f5") format("svg");
+}
+@font-face{
+font-family:"univers-520";
+src:url("Univers/a91bb6bb-99c4-4a06-b540-dc97c6695230.eot?#iefix");
+src:url("Univers/a91bb6bb-99c4-4a06-b540-dc97c6695230.eot?#iefix") format("eot"),url("Univers/3d8afbb0-431e-4590-9d1e-5cb99d482863.woff") format("woff"),url("Univers/75cb1322-25ed-4a0d-9fad-79bf91469926.ttf") format("truetype"),url("Univers/6846d199-8090-436d-b79f-bede1f0657ff.svg#6846d199-8090-436d-b79f-bede1f0657ff") format("svg");
+}
+@font-face{
+font-family:"univers-530";
+src:url("Univers/48a42ae4-2dae-4819-a76c-c4a39ba76875.eot?#iefix");
+src:url("Univers/48a42ae4-2dae-4819-a76c-c4a39ba76875.eot?#iefix") format("eot"),url("Univers/d7cf6a30-fb6a-4725-9c93-2372d9f4bb8d.woff") format("woff"),url("Univers/fb6dd99b-78b9-4459-b787-00d3f0fc0c9f.ttf") format("truetype"),url("Univers/4bed78d0-7a4f-46bf-b802-29f04d1d2e11.svg#4bed78d0-7a4f-46bf-b802-29f04d1d2e11") format("svg");
+}
+@font-face{
+font-family:"univers-620";
+src:url("Univers/13e28cb2-c198-44e1-9948-b21eef388116.eot?#iefix");
+src:url("Univers/13e28cb2-c198-44e1-9948-b21eef388116.eot?#iefix") format("eot"),url("Univers/5b53cfa1-c27d-4fa0-b526-1f8e6bc5ecad.woff") format("woff"),url("Univers/05767d79-31b0-4d7d-b473-0ba480c67a25.ttf") format("truetype"),url("Univers/f61ff7a7-3e99-4855-9a04-42987e9edad6.svg#f61ff7a7-3e99-4855-9a04-42987e9edad6") format("svg");
+}
+@font-face{
+font-family:"univers-630";
+src:url("Univers/82467ea2-e594-4e0f-870c-374e5f664454.eot?#iefix");
+src:url("Univers/82467ea2-e594-4e0f-870c-374e5f664454.eot?#iefix") format("eot"),url("Univers/4f196f0d-462c-4cbc-ab22-113a2e7afe02.woff") format("woff"),url("Univers/8e774d13-c8ce-4383-9420-c3538c07629c.ttf") format("truetype"),url("Univers/8d85f88f-cb64-403e-baf3-0fa5b043f559.svg#8d85f88f-cb64-403e-baf3-0fa5b043f559") format("svg");
+}
+@font-face{
+font-family:"univers-330";
+src:url("Univers/df87702f-a933-4d3a-b9d9-4ae72506ae9d.eot?#iefix");
+src:url("Univers/df87702f-a933-4d3a-b9d9-4ae72506ae9d.eot?#iefix") format("eot"),url("Univers/e4ae19e7-c510-4127-837d-8f218498da93.woff") format("woff"),url("Univers/6fdd43a7-c877-42cb-8a63-d81872f46de8.ttf") format("truetype"),url("Univers/9da52489-293c-462c-b4c9-1fd1b464c454.svg#9da52489-293c-462c-b4c9-1fd1b464c454") format("svg");
+}
+@font-face{
+font-family:"univers-430";
+src:url("Univers/c14b251f-80d3-4415-8d21-b2868dea7a9b.eot?#iefix");
+src:url("Univers/c14b251f-80d3-4415-8d21-b2868dea7a9b.eot?#iefix") format("eot"),url("Univers/78c7a8d2-8a85-47a5-8c13-049c7b18c9c0.woff") format("woff"),url("Univers/02e005e1-ac11-49f9-b290-ee01bad12606.ttf") format("truetype"),url("Univers/c37183cf-3e94-42b3-a71b-75ba616287d7.svg#c37183cf-3e94-42b3-a71b-75ba616287d7") format("svg");
+}
+@font-face{
+font-family:"univers-820";
+src:url("Univers/a16b2083-9367-4ad8-91cb-112e3d78c22c.eot?#iefix");
+src:url("Univers/a16b2083-9367-4ad8-91cb-112e3d78c22c.eot?#iefix") format("eot"),url("Univers/055f3f66-e4f3-4960-b67f-8a30a6aadaf1.woff") format("woff"),url("Univers/cd1b2e4b-554e-4914-9d9a-5078b6f91e3f.ttf") format("truetype"),url("Univers/4cb5657b-20e5-476d-92da-69acfd2e596d.svg#4cb5657b-20e5-476d-92da-69acfd2e596d") format("svg");
+}
