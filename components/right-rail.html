@@ -148,6 +148,12 @@
               <p>Help</p>
             </a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="heroes.html">
+              <i class="material-icons">image</i>
+              <p>Hero Banners</p>
+            </a>
+          </li>
           <li class="nav-item  ">
             <a class="nav-link" href="lists.html">
               <i class="material-icons">lists</i>
@@ -259,8 +265,16 @@
           <div class="card">
             <div class="card-header card-header-primary">
               <h4 class="card-title">Right Rail</h4>
-              <p class="card-category">This sidebar is dedicated to in-context next-best-actions for the user to take.
-              </p>
+              <div class="row">
+                <div class="col-md-9">
+              <p class="card-category">This sidebar is dedicated to in-context next-best-actions for the user to take. </p>
+              </div>
+
+              <div class="col-md-3">
+                  <a class="btn btn-outline-card-header" href=" https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5cee9a4e37576a1d44720582" target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
+                    </div>
+
+                    </div>
 
             </div>
             <div class="card-body">
@@ -273,10 +287,7 @@
                   content it contains.</p>
                 <h4 id="RightRail-Whereandhowoftendoesitappear?"><strong>Where and how often does it appear?</strong>
                 </h4>
-                <p>The Right Rail should display on all top-level views. DX requests that dev provides content authors
-                  with an option to include Right Rail on child pages, or any other pages they select. This would need
-                  to account for later adding the Right Rail to existing pages without the need to recreate
-                  it.&nbsp;&nbsp;</p>
+                <p>The Right Rail should display on all top-level views. It is an optional component for secondary page levels, such as Claim Details.</p>
                 <h4 id="RightRail-Typesofcontentandamounts"><strong>Types of content and amounts</strong></h4>
                 <p>Content should be separated into blocks with an underlined header:</p>
                 <ul>
@@ -335,6 +346,8 @@
                   </div>
                   <div class="col-md-9">
                     <li>Sample - helpful links and next best actions</li>
+                    <br/>
+                    <img src="../assets/component-comps/bc2-right-rail-samples.png" class="comp-sizing-medium">
                   </div>
                 </div>
 
