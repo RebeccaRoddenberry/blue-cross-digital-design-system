@@ -1,0 +1,9 @@
+$breakpoint-xs-min: 0;
+$breakpoint-xs-max: 599px;
+$breakpoint-sm-min: 600px;
+$breakpoint-sm-max: 959px;
+$breakpoint-md-min: 960px;
+$breakpoint-md-max: (1280px - 17px); // Needed to exclude 1264px
+$breakpoint-lg-min: (1280px - 16px); // Desktop gets a 16dp reduction
+$breakpoint-lg-max: (1920px - 17px);
+$breakpoint-xl-min: (1920px - 16px); // https://material.io/guidelines/layout/responsive-ui.html#responsive-ui-breakpoints
