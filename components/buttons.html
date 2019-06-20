@@ -112,11 +112,11 @@
             </a>
           </li>
           <li class="nav-item  ">
-              <a class="nav-link" href="testing.html">
-                <i class="material-icons">verified_user</i>
-                <p>Testing</p>
-              </a>
-            </li>
+            <a class="nav-link" href="testing.html">
+              <i class="material-icons">verified_user</i>
+              <p>Testing</p>
+            </a>
+          </li>
           <li class="nav-item ">
             <a class="nav-link" href="cards.html">
               <i class="material-icons">view_quilt</i>
@@ -130,11 +130,11 @@
             </a>
           </li>
           <li class="nav-item  ">
-              <a class="nav-link" href="footer.html">
-                <i class="material-icons">horizontal_split</i>
-                <p>Footer</p>
-              </a>
-            </li>
+            <a class="nav-link" href="footer.html">
+              <i class="material-icons">horizontal_split</i>
+              <p>Footer</p>
+            </a>
+          </li>
           <li class="nav-item  ">
             <a class="nav-link" href="forms.html">
               <i class="material-icons">format_align_center</i>
@@ -283,54 +283,74 @@
                           class="white-link">View Material Design - Contained Buttons</a><br />
                         <a href="https://vuetifyjs.com/en/components/buttons" target="_blank" class="white-link">View
                           Vuetify Button Documentation</a></p>
+                      <a class="white-link"
+                        href="http://codex.bcbsnc.com/accessibility/accessible-forms/index.html#buttons"
+                        target="_blank">View Accessibility Notes on Button Labels </a>
                     </div>
                     <div class="col-md-3">
                       <a class="btn btn-outline-card-header"
                         href="https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5c9131ae6bac150de2c56f75"
                         target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
                     </div>
+
+
+
                   </div>
                 </div>
 
                 <div class="card-body">
 
-                  
+
 
 
                   <h3>Web</h3>
                   <div class="row">
                     <div class="col-md-8">
-                  <img class="img-fluid" src="../assets/component-comps/bc2-button-set.png">
-                  
-                  
-                  </div>
-                  <div class="col-md-4">
-                      <ul>
-                          <li>Solid color (Primary CTA) buttons are used for more focused components/pages with a primary action</li>
-                        
-                          <li>Outline buttons are used for solid color blocks or when applied over an image, they are also recommended as a secondary CTA when there are multiple cards.</li>
-                          <li>Buttons that include icons - icons will be located to the left of the button text (Except for External Link icon)</li>
-                          <li>Chips - Only for a group of many links / cloud tag more than 4</li>
-                          <li>Disabled Buttons - the best practice is to remove / hide the button and provide the user some explanation text instead describing why the button or functionality is not available.</li>
-                        </ul>
-                    </div>
-                    </div>
-                    <br /><br />
+                      <img class="img-fluid" src="../assets/component-comps/bc2-button-set.png">
 
-                    <div class="row">
-                      <div class="col-md-8">
-                        <img class="comp-sizing-medium" src="../assets/component-comps/bc2-buttons-external-links.png">
+
                     </div>
                     <div class="col-md-4">
                       <ul>
-                          <li>External Links are defined as links that point to URLs that are not on the Blue Cross NC domain, such as healthnav.bcbsnc.com. External links always open in a new tab and trigger the following modal.</li>
-                          <li>The external link icon should appear to the right of the link text.</li>
+                        <li>Solid color (Primary CTA) buttons are used for more focused components/pages with a primary
+                          action</li>
 
-                          </ul>
-                          </div>
+                        <li>Outline buttons are used for solid color blocks or when applied over an image, they are also
+                          recommended as a secondary CTA when there are multiple cards.</li>
+                        <li>Buttons that include icons - icons will be located to the left of the button text (Except
+                          for External Link icon)</li>
+                        <li>Chips - Only for a group of many links / cloud tag more than 4</li>
+                        <li>Disabled Buttons - the best practice is to remove / hide the button and provide the user
+                          some explanation text instead describing why the button or functionality is not available.
+                        </li>
+                      </ul>
                     </div>
+                  </div>
+                  <br /><br />
 
-                    <br/><br/>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <img class="comp-sizing-medium" src="../assets/component-comps/bc2-buttons-external-links.png">
+                    </div>
+                    <div class="col-md-4">
+                      <ul>
+                        <li>All external links (any link that resides outside of the Blue Connect domain) should be
+                          opened in a new tab (target="_blank"). We indicate this functionality with the new tab icon -
+                          which should appear to the right of the link text.</li>
+                        <li>Following this pattern means websites that are co-branded, such as HealthNav and Prime
+                          should open in a new tab as well.</li>
+                        <li>Exception: PDFs open in new tabs by default, but do not need this icon. Instead, they should
+                          have a PDF icon or include "(pdf)" after the link text.</li>
+                        <li>For more information, visit the <a target="_blank"
+                            href="http://codex.bcbsnc.com/accessibility/link-icons/index.html"
+                            style="font-weight: bold; text-decoration: underline;">reference page created by our
+                            Accessibility Team</a>.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <br />
+                  <hr /><br />
                   <h3>Mobile</h3>
                   <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-button-set.png">
                   <br /><br />
@@ -351,6 +371,50 @@
                   <h4>Disabled Buttons</h4>
                   <p>Best practice - remove / hide the button and provide the user some explanation text instead
                     describing why the button or functionality is not available.</p>
+
+                  <hr /><br />
+
+                  In addition to the above, below are related accessibility check list items that icons\buttons\links
+                  should follow (as provided from the Accessibility Team):
+                  <ul>
+                    <li>The entire page is keyboard-navigable. Users can reach every interactive element of the page
+                      using a keyboard, including all user interface controls, using the default navigation keys (tab
+                      for forward, shift + tab for back, enter or space bar to trigger).</li>
+
+                    <li>There are no keyboard traps that prevent keyboard-only users from navigating.</li>
+
+                    <li>The navigation order of links, form elements, etc. is logical and intuitive.</li>
+
+                    <li>It is visually apparent which page element has the current keyboard focus (i.e., as you tab
+                      through the page, you can see where you are).</li>
+
+                    <li>Any image-based form buttons have clear, accurate alternate text.</li>
+
+                    <li>Color is not the only way to distinguish important information.</li>
+
+                    <li>Links are either underlined or have a 3:1 contrast ratio with surrounding text and change
+                      visually on focus and hover.</li>
+
+                    <li>Text has enough contrast. The background and foreground colors have a contrast ratio of 3:1 for
+                      large text (18px and above) and 4.5:1 for smaller text.</li>
+
+                    <li>If the same visual presentation can be made using text alone, an image is not used to present
+                      that text.</li>
+
+                    <li>The font is readable and not too small (a least 9pt, 12pt preferred). (Optional)</li>
+
+                    <li>Instructions do not rely upon shape, size, or visual location (e.g., "Click the square icon to
+                      continue" or "Instructions are in the right-hand column").</li>
+
+                    <li>Instructions do not rely upon sound (e.g., "A beeping sound indicates you may continue.").</li>
+
+                    <li>The purpose of each link (or form image button or image map hotspot) can be determined from the
+                      link text alone, or from the link text and its context (e.g., surrounding paragraph, list item,
+                      table cell, or table headers).</li>
+
+                    <li>Links (or form image buttons) with the same text that go to different locations are readily
+                      distinguishable.</li>
+                  </ul>
 
                 </div>
               </div>
