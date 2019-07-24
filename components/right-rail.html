@@ -93,11 +93,11 @@
             </a>
           </li>
           <li class="nav-item  ">
-              <a class="nav-link" href="testing.html">
-                <i class="material-icons">verified_user</i>
-                <p>Testing</p>
-              </a>
-            </li>
+            <a class="nav-link" href="testing.html">
+              <i class="material-icons">verified_user</i>
+              <p>Testing</p>
+            </a>
+          </li>
           <li class="nav-item   ">
             <a class="nav-link" href="typography.html">
               <i class="material-icons">library_books</i>
@@ -273,14 +273,17 @@
               <h4 class="card-title">Right Rail</h4>
               <div class="row">
                 <div class="col-md-9">
-              <p class="card-category">This sidebar is dedicated to in-context next-best-actions for the user to take. </p>
+                  <p class="card-category">This sidebar is dedicated to in-context next-best-actions for the user to
+                    take. </p>
+                </div>
+
+                <div class="col-md-3">
+                  <a class="btn btn-outline-card-header"
+                    href=" https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5d30b1cec598898dbf6f7ccf"
+                    target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
+                </div>
+
               </div>
-
-              <div class="col-md-3">
-                  <a class="btn btn-outline-card-header" href=" https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5cee9a4e37576a1d44720582" target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
-                    </div>
-
-                    </div>
 
             </div>
             <div class="card-body">
@@ -289,34 +292,16 @@
 
                 <h4 id="RightRail-Overview"><strong>Overview</strong></h4>
                 <p>The Right Rail aims to give users context to the page they are viewing and quick access to helpful
-                  information. The following guide offers suggestions on how often the Right Rail should appear and what
-                  content it contains.</p>
-                <h4 id="RightRail-Whereandhowoftendoesitappear?"><strong>Where and how often does it appear?</strong>
-                </h4>
-                <p>The Right Rail should display on all top-level views. It is an optional component for secondary page levels, such as Claim Details.</p>
-                <h4 id="RightRail-Typesofcontentandamounts"><strong>Types of content and amounts</strong></h4>
-                <p>Content should be separated into blocks with an underlined header:</p>
-                <ul>
-                  <li>1 Primary Care Physician information (when needed)</li>
-                  <li>1 informational block (no more than 5 bullets)<ul>
-                      <li>Help (e.g., How This Plan Works)</li>
-                      <li>Tools that add context (e.g., Before You Choose a Doctor)</li>
-                    </ul>
-                  </li>
-                  <li>2 link blocks: Quick Links and Related Links – no more than seven links per block (includes
-                    landing pages and documents)<ul>
-                      <li>Designate whether link will open new window or same<br>
-                        <ul>
-                          <li>Need icon to illustrate when link opens in new window</li>
-                        </ul>
-                      </li>
-                      <li>Links will likely need to be manually curated at first, but as more analytics data becomes
-                        available, include the option to supplement with links populated by common user paths</li>
-                    </ul>
-                  </li>
-                  <li>1 promotional tile</li>
+                  information. Right Rail houses items not on the page to avoid redundancies. For example, if there is a
+                  component linking to a page that there’s not also a link in Related Information or Quick Links that
+                  goes to the same page.</p>
+                <p>The Right Rail should display on all top-level views. It is an optional component for secondary page
+                  levels, such as Claim Details. </p>
+                <p>Any combination of these shouldn’t take up more than 2/3 of the Right Rail height.</p>
+                <p>First release - "Help" and "Contact Us" can be found in the footer, so we will not be including it in
+                  the right rail until we have the Help Center finalized.</p>
                 </ul>
-                <hr/>
+                <hr />
                 <!-- Accepted uses
                 <ul>
                   <li>Top actions</li>
@@ -334,28 +319,96 @@
                   <li>Limit use of colors</li>
                   <li>Actionable text or outlined button instead of arrows</li>
                 </ul> -->
-               
+                <h2>Content Types</h2>
+                <p>(In order of their hierarchy)</p>
+                <br /><br />
                 <div class="row">
                   <div class="col-md-3">
-                    <img src="../assets/component-comps/bc2-right-rail-rtdm.png" class="comp-sizing-small">
+                    <img src="../assets/component-comps/right-rail/rr-1-card.png" class="comp-sizing-small">
                   </div>
                   <div class="col-md-9">
-                    <li>Maximum limit - 4 tiles</li>
+                    <h3>1. Cards</h3>
+                    <li>Header</li>
+                    <li> Solid background </li>
+                    <li>CTA outlined button or link</li>
+                    <li>No imagery</li>
+                    <li>Single Icon acceptable (example: Nurse Line) </li>
+                    <li>No more than one card in RR to clearly define hierarchy
+                    <li>Keep in mind that this will not always be prioroty 1 on the tablet and mobile views when we
+                      push to the bottom</li>
+                    <li>Example: Primary Care Provider</li>
                   </div>
                 </div>
                 <br /><br />
                 <div class="row">
                   <div class="col-md-3">
-                    <img src="../assets/component-comps/bc1-right-rail.png" class="comp-sizing-small">
-                    
-                    <!-- <img src="../assets/component-comps/bc1-right-rail-2.png" class="comp-sizing-small"> -->
+                    <img src="../assets/component-comps/right-rail/rr-2-info-block.png" class="comp-sizing-small">
                   </div>
                   <div class="col-md-9">
-                    <li>Sample - helpful links and next best actions</li>
-                    <br/>
-                    <img src="../assets/component-comps/bc2-right-rail-samples.png" class="comp-sizing-medium">
+                    <h3>2. Information Block</h3>
+                    <li>No more than 3 to 5 bullets </li>
                   </div>
                 </div>
+                <br /><br />
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="../assets/component-comps/right-rail/rr-3-related-info.png" class="comp-sizing-small">
+                  </div>
+                  <div class="col-md-9">
+                    <h3>3. Related Information</h3>
+                    <li>No more than 5</li>
+                    <li> No less than 3</li>
+                    <li> Related to the page</li>
+                    <li> FAQ link will always appear first - Single link will go to FAQ section that relates to the
+                      feature the member is viewing </li>
+                    <li> If no related links - hide whole section</li>
+                  </div>
+                </div>
+                <br /><br />
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="../assets/component-comps/right-rail/rr-4-quick-links.png" class="comp-sizing-small">
+                  </div>
+                  <div class="col-md-9">
+                    <h3>4. Quick Links</h3>
+                    <li>No more than 5</li>
+                    <li>No less than 3</li>
+                    <li>Standard links like ID Card TBD</li>
+                  </div>
+                </div>
+                <br /><br />
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="../assets/component-comps/right-rail/rr-5-rtdm-tile.png" class="comp-sizing-small">
+                  </div>
+                  <div class="col-md-9">
+                    <h3>5. RTDM Tiles</h3>
+                    <li> No more than 1 per secondary page </li>
+                    <li>Should be relevent to the page</li>
+                    <li>Should appear last</li>
+                  </div>
+                </div>
+                <br /><br />
+                <hr />
+
+                <h2>Right Rail Layout</h2>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Desktop</p>
+                    <img src="../assets/component-comps/right-rail/RR-Desktop.png" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                      <p>Tablet</p>
+                    <img src="../assets/component-comps/right-rail/RR-Tablet.png" class="img-fluid">
+                  </div>
+                  <div class="col-md-2">
+                      <p>Mobile</p>
+                    <img src="../assets/component-comps/right-rail/RR-Mobile.png" class="img-fluid">
+                  </div>
+                </div>
+
+
+                <br /><br />
 
 
               </div>
