@@ -31,6 +31,14 @@
   font-size:18px;
 }
 
+.ep-section-header {
+  font-size:25px;
+  font-weight: bold;
+  color: #0a6a90;
+}
+
+
+
 .dashboard-card-descriptor {
   color: #666666;
   font-size: 12px;
@@ -4823,7 +4831,8 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: #fff;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: .5px solid #9b9b9b;
+
 }
 
 .card-header:first-child {
@@ -16528,8 +16537,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #89229b;
-  text-decoration: none;
+  color: #0a6ebd;
+  text-decoration: underline;
 }
 
 a.text-info:hover,
@@ -16926,7 +16935,8 @@ label {
 }
 
 .card .card-header {
-  border-bottom: none;
+  border-bottom: .5px solid #797979;
+  border-bottom-style: inset;
   background: transparent;
 }
 

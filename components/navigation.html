@@ -276,7 +276,16 @@
               <p class="card-category">
 
                 <div class="row">
-                  <div class="col-md-9"></div>
+                  <div class="col-md-9">
+                    <ul>
+                      <li>Left Navigation - Closed, Minified, Expanded</li>
+                      <li>Toolbar</li>
+                      <li>Section Headers</li>
+                      <li>Page Titles, Heros</li>
+                      <li>Badges</li>
+                      <li>Avatars</li>
+                    </ul>
+                  </div>
                   <div class="col-md-3">
                     <a class="btn btn-outline-card-header"
                       href="https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5c91035eea57b00545642550"
@@ -298,7 +307,7 @@
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h3>Web</h3>
+                        <h3 class="ep-section-header">Web</h3>
                     </button>
                   </h5>
                 </div>
@@ -322,8 +331,9 @@
                               <li>Note: Vuetify will remember the user's preference and present the menu to them the same way for
                                 each subsequent page.</li>
                               <hr />
-                              <li>Page titles live on the background of the page directly under the logo. Exception - if there is
-                                a hero banner, the page title will live within the hero section.</li>
+                              <li>Page titles should live on a white background to reduce “banding” when paired with tabs</li>
+                                <li>Will not show when page has hero banner as title will be incorporated in hero</li>
+                              </li>Breadcrumbs will live directly under the page title</li>
                             </ul>
                           </div>
                         </div>
@@ -351,26 +361,43 @@
           
                         <div class="row">
                           <div class="col-md-9">
-                            <img class="img-fluid" src="../assets/component-comps/bc2-page-title-single.png">
-                            <br/><br/>
-                            <img class="img-fluid" src="../assets/component-comps/bc2-page-title-breadcrumbs.png">
-                            <br/><br/>
+                           
                             <img class="img-fluid" src="../assets/component-comps/bc2-page-title-hero.png">
-                            <br /><br />
+                            <br><br><br><br>
                            
                             <img class="img-fluid" src="../assets/component-comps/bc2-section-header.png">
                             <br /><br />
+
+                          
                           </div>
                           <div class="col-md-3">
-                            <p>Page Titles
-                              <ul>
-                              <li>Page titles should live on a white background to reduce “banding” when paired with tabs</li>
-                                <li>Will not show when page has hero banner as title will be incorporated in hero</li>
-                              </li>When we introduce breadcrumbs, they will live directly under the page title</li>
-                                
-                            </ul>
+                            <ul>
+                              <li><a href="heroes.html">View our component guidelines for Hero Images</a></li>
+                              </ul>
                             
-                          </p>
+                          </div>
+                        </div>
+
+
+                        <br><br>
+                        <hr />
+                        <br><br>
+          
+          
+                        <div class="row">
+                          <div class="col-md-9">
+                           
+                          
+                          
+                            <img class="img-fluid" src="../assets/component-comps/Avatars.png">
+                            <br><br>
+
+                            <img class="img-fluid" src="../assets/component-comps/Badges.png">
+                            <br /><br />
+                          </div>
+                          <div class="col-md-3">
+                            
+                            
                           </div>
                         </div>
                      
@@ -383,7 +410,7 @@
                 <div class="card-header" id="headingTwo">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h3>Mobile</h3>
+                        <h3  class="ep-section-header">Mobile</h3>
                     </button>
                   </h5>
                 </div>
@@ -449,7 +476,7 @@
                   <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <h3>Smart Desktop</h3>
+                          <h3  class="ep-section-header">Smart Desktop</h3>
                       </button>
                     </h5>
                   </div>
@@ -488,7 +515,7 @@
           <br /><br /><br />
 
 
-          <div class="card">
+          <div class="card" style="background-color: #f1f1f2;">
             <div class="card-header card-header-primary">
               <div class="row">
                 <div class="col-md-9">
