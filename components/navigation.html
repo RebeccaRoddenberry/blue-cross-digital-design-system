@@ -286,236 +286,207 @@
               </p>
 
             </div>
-            <div class="card-body">
-              <div class="row">
+          </div>
+
+
+
+
+
+          <div id="accordion">
+
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h3>Web</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                      <div class="row">
                  
-                <div class="col-md-10">
-                    <h3>Web </h3>
-                  <img class="img-fluid" src="../assets/component-comps/bc2-main-navigation-states.png">
-                </div>
-                <div class="col-md-2">
-                  <ul style="margin-left:-45px;">
-                    <li>State 1: Closed - this is the default view when the member comes to the home page. The reasoning
-                      is that all of the main navigation items will be found as content with links on that home page.
-                    </li>
-                    <li>State 2: Minified Open - this will be the default view for the user on every page after the home
-                      page.</li>
-                    <li>State 3: Expanded Open - if the user clicks on the expand arrow, they can see the expanded view.
-                    </li>
-                    <li>Note: Vuetify will remember the user's preference and present the menu to them the same way for
-                      each subsequent page.</li>
-                    <hr />
-                    <li>Page titles live on the background of the page directly under the logo. Exception - if there is
-                      a hero banner, the page title will live within the hero section.</li>
-                  </ul>
-                </div>
+                          <div class="col-md-10">
+                             
+                            <img class="img-fluid" src="../assets/component-comps/bc2-main-navigation-states.png">
+                          </div>
+                          <div class="col-md-2">
+                            <ul style="margin-left:-45px;">
+                              <li>State 1: Closed - this is the default view when the member comes to the home page. The reasoning
+                                is that all of the main navigation items will be found as content with links on that home page.
+                              </li>
+                              <li>State 2: Minified Open - this will be the default view for the user on every page after the home
+                                page.</li>
+                              <li>State 3: Expanded Open - if the user clicks on the expand arrow, they can see the expanded view.
+                              </li>
+                              <li>Note: Vuetify will remember the user's preference and present the menu to them the same way for
+                                each subsequent page.</li>
+                              <hr />
+                              <li>Page titles live on the background of the page directly under the logo. Exception - if there is
+                                a hero banner, the page title will live within the hero section.</li>
+                            </ul>
+                          </div>
+                        </div>
+          
+                        <br><br>
+                        <hr />
+                        <br><br>
+          
+                
+          
+                        <div class="row">
+                          <div class="col-md-10">
+                            <img class="comp-sizing-medium" src="../assets/component-comps/web-nav-tablet.png"><br /><br />
+                            <img class="comp-sizing-md-small" src="../assets/component-comps/web-nav-mobile.png"><br /><br />
+                          </div>
+                          <div class="col-md-2">
+                            <p>Tablet and Mobile Views</p>
+                          </div>
+                        </div>
+          
+                        <br><br>
+                        <hr />
+                        <br><br>
+          
+          
+                        <div class="row">
+                          <div class="col-md-9">
+                            <img class="img-fluid" src="../assets/component-comps/bc2-page-title-single.png">
+                            <br/><br/>
+                            <img class="img-fluid" src="../assets/component-comps/bc2-page-title-breadcrumbs.png">
+                            <br/><br/>
+                            <img class="img-fluid" src="../assets/component-comps/bc2-page-title-hero.png">
+                            <br /><br />
+                           
+                            <img class="img-fluid" src="../assets/component-comps/bc2-section-header.png">
+                            <br /><br />
+                          </div>
+                          <div class="col-md-3">
+                            <p>Page Titles
+                              <ul>
+                              <li>Page titles should live on a white background to reduce “banding” when paired with tabs</li>
+                                <li>Will not show when page has hero banner as title will be incorporated in hero</li>
+                              </li>When we introduce breadcrumbs, they will live directly under the page title</li>
+                                
+                            </ul>
+                            
+                          </p>
+                          </div>
+                        </div>
+                     
+                  </div>
+                </div>     
               </div>
-
-              <br><br>
-              <hr />
-              <br><br>
-
-              <!-- <div class="row">
-                <div class="col-md-10">
-                  <img class="img-fluid" src="../assets/component-comps/bc2-navbar-desktop-default.png">
+  
+              
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3>Mobile</h3>
+                    </button>
+                  </h5>
                 </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img class="img-fluid" src="../assets/component-comps/mobile-main-navigation.png">
+                          </div>
+                          <div class="col-md-6">
+                            <p>Navigation within the mobile app is "dark" (including Main Nav, Modals, Filters) while the primary
+                              content utilizes a neutral background (#f1f1f2) with solid white cards to maximized the visibility
+                              of main content.</p>
+                          </div>
+                        </div>
 
-                <div class="col-md-2">
-                  <p>Default</p>
-                </div>
-              </div>
+                        <div class="row">
 
-              <br><br>
-              <hr />
-              <br><br>
-
-
-
-              <div class="row">
-                <div class="col-md-10">
-                  <img class="img-fluid" src="../assets/component-comps/bc2-navbar-desktop-expanded.png">
-                </div>
-                <div class="col-md-2">
-                  <p>Expanded with Page Title</p>
-                </div>
-              </div>
-
-              <br><br>
-              <hr />
-              <br><br>
-
-              <div class="row">
-                <div class="col-md-10">
-                  <img class="img-fluid" src="../assets/component-comps/bc2-navbar-desktop-minified.png">
-                </div>
-                <div class="col-md-2">
-                  <p>Minified with Page Title</p>
-                </div>
-              </div>
-
-              <br><br>
-              <hr />
-              <br><br> -->
-
-
-              <div class="row">
-                <div class="col-md-10">
-                  <img class="comp-sizing-medium" src="../assets/component-comps/web-nav-tablet.png"><br /><br />
-                  <img class="comp-sizing-md-small" src="../assets/component-comps/web-nav-mobile.png"><br /><br />
-                </div>
-                <div class="col-md-2">
-                  <p>Tablet and Mobile Views</p>
-                </div>
-              </div>
-
-              <br><br>
-              <hr />
-              <br><br>
-
-
-              <div class="row">
-                <div class="col-md-9">
-                  <img class="img-fluid" src="../assets/component-comps/bc2-page-title-single.png">
-                  <br/><br/>
-                  <img class="img-fluid" src="../assets/component-comps/bc2-page-title-breadcrumbs.png">
-                  <br/><br/>
-                  <img class="img-fluid" src="../assets/component-comps/bc2-page-title-hero.png">
-                </div>
-                <div class="col-md-3">
-                  <p>Page Titles
-                    <ul>
-                    <li>Page titles should live on a white background to reduce “banding” when paired with tabs</li>
-                      <li>Will not show when page has hero banner as title will be incorporated in hero</li>
-                    </li>When we introduce breadcrumbs, they will live directly under the page title</li>
-                      
-                  </ul>
-                  
-                </p>
-                </div>
-              </div>
-
-
-
-
-
-
-
-              <br /><br /><br />
-              <hr />
-              <h3>Smart Desktop </h3>
-              <div class="row">
-                <div class="col-lg-3 col-md-6">
-                  <img class="comp-sizing-extra-small"
-                    src="../assets/component-comps/smart-desktop-main-navigation-collapsed.png">
-                </div>
-                <div class="col-md-6">
-                  <img class="img-fluid" style="max-width: 350px;"
-                    src="../assets/component-comps/smart-desktop-main-navigation.png">
-                </div>
-                <div class="col-lg-3">
-                  <p>Smart Desktop presents a slightly different menu that has two states - Minified and Fully Open</p>
-                </div>
-              </div>
-
-              <br /><br /><br />
-              <hr />
-              <h3>Mobile</h3>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-main-navigation.png">
-                </div>
-                <div class="col-md-6">
-                  <p>Navigation within the mobile app is "dark" (including Main Nav, Modals, Filters) while the primary
-                    content utilizes a neutral background (#f1f1f2) with solid white cards to maximized the visibility
-                    of main content.</p>
+                            <div class="col-md-6">
+                              <h4></h4>
+                              <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-section-header.png">
+                            </div>
+                            <br />
+                          <hr><br />
+                            <div class="col-md-6">
+                              <p>Section headers</p>
+                            </div>
+                          </div>
+                          <br />
+                          <hr><br />
+                          <div class="row">
+                            <div class="col-md-6">
+                              <h4></h4>
+                              <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-topnav.png">
+                            </div>
+                            <div class="col-md-6">
+                              <p>Top Nav</p>
+                            </div>
+                          </div>
+                          <br />
+                          <hr><br />
+                          <div class="row">
+                            <div class="col-md-6">
+                              <h4></h4>
+                              <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-bottom-tabs.png">
+                            </div>
+                            <div class="col-md-6">
+                              <p>Bottom Tab Bar</p>
+                              <ul>
+                                <li>This should be the only type of navigation that "changes" based on the page the user is
+                                  viewing.</li>
+                                <li>The intent is to offer the user different actions based on the context of their content.
+                                  (Example: Filtering a results list vs. Sharing an ID Card)</li>
+                              </ul>
+                            </div>
+                          </div>
+                  </div>
                 </div>
               </div>
 
 
-
-
-
+              <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h3>Smart Desktop</h3>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <img class="comp-sizing-extra-small"
+                                src="../assets/component-comps/smart-desktop-main-navigation-collapsed.png">
+                            </div>
+                            <div class="col-sm-3">
+                              <img class="img-fluid" 
+                                src="../assets/component-comps/smart-desktop-main-navigation.png">
+                            </div>
+                            <div class="col-sm-3">
+                              <p>Smart Desktop presents a slightly different menu that has two states - Minified and Fully Open</p>
+                            </div>
+                          </div>
+                          <br/><br/><br/>
+                          <img class="img-fluid" src="../assets/component-comps/smart-desktop-section-header.png">
+                    </div>
+                  </div>
+                </div>
+              
             </div>
+
+
+
+
+
+
+
+           
           </div>
 
           <br /><br /><br />
 
-          <div class="card">
-            <div class="card-header card-header-primary">
-              <div class="row">
-                <div class="col-md-9">
-                  <h4 class="card-title">General Navigation - Section Headers</h4>
-                </div>
-                <div class="col-md-3">
-                  <a class="btn btn-outline-card-header"
-                    href="https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5c91035eea57b00545642550"
-                    target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
-                </div>
-              </div>
-
-            </div>
-            <div class="card-body">
-
-
-
-
-              <h3>Web - Page Header</h3>
-              <img class="comp-sizing-large" src="../assets/component-comps/bc2-page-title-single.png">
-              <br /><br />
-              <img class="comp-sizing-large" src="../assets/component-comps/bc2-section-header.png">
-              <br /><br />
-              <h3>Smart Desktop</h3>
-              <img class="comp-sizing-large" src="../assets/component-comps/smart-desktop-section-header.png">
-              <br /><br />
-
-              <h3>Mobile</h3>
-              <div class="row">
-
-                <div class="col-md-6">
-                  <h4></h4>
-                  <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-section-header.png">
-                </div>
-                <div class="col-md-6">
-                  <p>Section headers</p>
-                </div>
-              </div>
-              <br />
-              <hr><br />
-              <div class="row">
-                <div class="col-md-6">
-                  <h4></h4>
-                  <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-topnav.png">
-                </div>
-                <div class="col-md-6">
-                  <p>Top Nav</p>
-                </div>
-              </div>
-              <br />
-              <hr><br />
-              <div class="row">
-                <div class="col-md-6">
-                  <h4></h4>
-                  <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-bottom-tabs.png">
-                </div>
-                <div class="col-md-6">
-                  <p>Bottom Tab Bar</p>
-                  <ul>
-                    <li>This should be the only type of navigation that "changes" based on the page the user is
-                      viewing.</li>
-                    <li>The intent is to offer the user different actions based on the context of their content.
-                      (Example: Filtering a results list vs. Sharing an ID Card)</li>
-                  </ul>
-                </div>
-              </div>
-
-
-
-            </div>
-          </div>
-
-
-
-          <br /><br /><br />
 
           <div class="card">
             <div class="card-header card-header-primary">

@@ -275,7 +275,9 @@
               <h4 class="card-title">Expansion Panels or "Accordions"</h4>
               <p class="card-category">
                 <div class="row">
-                  <div class="col-md-9"></div>
+                  <div class="col-md-9"><p>By default, only one panel opens at a time. <br />This is fine if we are only displaying
+                    information, but can be overridden if member is taking action on each panel. (Example: Contact
+                    Preferences for Web)</p></div>
                   <div class="col-md-3">
                     <a class="btn btn-outline-card-header"
                       href="https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5cc9a739c6c39a038a57a9d6"
@@ -286,44 +288,71 @@
               </p>
 
             </div>
-            <div class="card-body">
-              <div id="">
-
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="../assets/component-comps/material-design-expansion-panel.png" class="img-fluid">
-                    <br /><br />
-                    <h4>Web</h4>
-                    <img src="../assets/component-comps/bc2-accordion.png" class="img-fluid">
-                    <br /><br />
-                    <h4>Smart Desktop</h4>
-                    <img src="../assets/component-comps/smart-desktop-accordion.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6">
-                    <h3>Material Design "Expansion Panel"</h3>
-                    <ul>
-                      <li>By default, only one panel opens at a time. <br />This is fine if we are only displaying
-                        information, but can be overridden if member is taking action on each panel. (Example: Contact
-                        Preferences for Web)</li>
-                    </ul>
-                  </div>
-                </div>
-                <hr />
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="../assets/component-comps/dot-com-accordion.png" class="img-fluid">
-                  </div>
-                  <div class="col-md-6">
-                    <h3>Dot Com Accordions</h3>
-                  </div>
-                </div>
-
-
-
-
-              </div>
-            </div>
           </div>
+           
+
+            <div id="accordion">
+
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h3>Web</h3>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <img src="../assets/component-comps/bc2-accordion.png" class="img-fluid">
+                       
+                    </div>
+                  </div>     
+                </div>
+    
+                
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <h3>Smart Desktop</h3>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <img src="../assets/component-comps/smart-desktop-accordion.png" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h3>Mobile</h3>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-sm-5">
+                          <img src="../assets/component-comps/mobile-expansion-panel.png" class="img-fluid">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+
+
+
+
+          <!-- <img src="../assets/component-comps/dot-com-accordion.png" class="img-fluid"> -->
+
+
+
+         
         </div>
       </div>
       <footer class="footer">
