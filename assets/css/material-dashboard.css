@@ -37,7 +37,11 @@
   color: #0a6a90;
 }
 
-
+.code-header {
+  font-weight: bold;
+  color: #666666;
+  
+}
 
 .dashboard-card-descriptor {
   color: #666666;
@@ -4834,6 +4838,7 @@ tbody.collapse.show {
   border-bottom: .5px solid #9b9b9b;
 
 }
+
 
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -16935,7 +16940,7 @@ label {
 }
 
 .card .card-header {
-  border-bottom: .5px solid #797979;
+  border-bottom: .5px solid #b1b1b1;
   border-bottom-style: inset;
   background: transparent;
 }
