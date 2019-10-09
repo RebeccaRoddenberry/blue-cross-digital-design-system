@@ -108,7 +108,13 @@
                 <hr />
               </h4>
             </div>
-  
+            
+            <li class="nav-item active">
+                <a class="nav-link" href="alerts.html">
+                  <i class="material-icons">notification_important</i>
+                  <p>Alerts</p>
+                </a>
+              </li>
             <li class="nav-item  ">
                 <a class="nav-link" href="breadcrumbs.html">
                   <i class="material-icons">keyboard_arrow_right</i>
@@ -181,12 +187,6 @@
                 <p>Navigation</p>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="notifications.html">
-                <i class="material-icons">notification_important</i>
-                <p>Notifications</p>
-              </a>
-            </li>
             <li class="nav-item ">
               <a class="nav-link" href="progress-indicator.html">
                 <i class="material-icons">skip_next</i>
@@ -243,7 +243,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">Notifications</a>
+            <a class="navbar-brand" href="#pablo">Alerts</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -277,15 +277,24 @@
         <div class="container-fluid">
           <div class="card">
             <div class="card-header card-header-primary">
-              <h3 class="card-title">Notifications</h3>
+              <h3 class="card-title">Alerts</h3>
 
               <div class="row">
                 <div class="col-md-9">
-              <p class="card-category">One type of notification are informational alerts that appear within the page. These display an important, succinct message and are usually not dismissable.
+              <p class="card-category">One type of notification are informational alerts that appear within the page. These display an important, succinct message in three variations:
+                <ul>
+                  <li>Global Alert</li>
+                  <li>Page-Level Alert</li>
+                  <li>Component-Level Alert</li>
+                  </ul>
+                  <a href="#sessionstorage" style="color:#ffffff; text-decoration: underline;">Alert Session Storage Information</a> and <a href="#contentguidelines" style="color:#ffffff; text-decoration: underline;">Content Guidelines</a> are provided below. 
               </p>
               </div>
               <div class="col-md-3">
                   <a class="btn btn-outline-card-header" href="https://app.zeplin.io/project/5c87f73aa1202f046e93b963/dashboard?seid=5c910249c4b29f250d0ab728" target="_blank">View Specs &amp; Styles in Zeplin <i class="material-icons">open_in_new</i></a>
+                  <br/>
+                  <a class="btn btn-outline-card-header" href="https://vuetifyjs.com/en/components/alerts" target="_blank">View Vuetify Documentation <i class="material-icons">open_in_new</i></a>
+                
                     </div>
               </div>
 
@@ -293,79 +302,122 @@
             </div>
             <div class="card-body">
               <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-8">
                   
-               
-                  <img class="img-fluid" src="../assets/component-comps/bc2-alert-collection.png">
-              
-                  <!-- <img class="comp-sizing-medium" src="../assets/component-comps/bc2-information-alert.png"> -->
-               
-                  <!-- <img class="comp-sizing-medium" src="../assets/component-comps/bc2-alert-yellow.png"> -->
-                
-                    <!-- <img class="comp-sizing-medium" src="../assets/component-comps/bc2-alert-red.png"> -->
-                
-                    <br/><br/>
-                    <!-- <p>Mobile</p>
-                    <img class="comp-sizing-md-small" src="../assets/component-comps/mobile-information-alert.png">
-                    <br/><br/> -->
-                    <p>Page-level Error</p>
-                    <img class="comp-sizing-large" src="../assets/component-comps/bc2-page-level-notification.png">
-                </div>
-                <div class="col-md-6">
+                <h3>Global Alerts</h3>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Alerts - Page.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Standard - Error.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Standard - Warning.png">
+                  <!-- <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Standard - Success.png"> -->
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Standard - Info.png">
+
 
                 </div>
+                <div class="col-md-4">
+                  <br/><br/>
+                    <ul>	
+                      <li>Types: 
+                   <ul>
+                      <li>High alert (Red) – This could signify user error or critical information.</li>
+                      <li>Medium priority (Yellow) - System outage, user action required, planned system outage.</li>
+                      <li>Low priority (Blue) – Information message, supplemental info, alternative to tool tip.</li>
+                   </ul>
+                  </li>
+                  <li>	Interaction: 
+                    <ul>
+                      <li>The user can close the global alert. </li>
+                      <li>Once closed, the alert will no longer be present during the user’s session (<a href="#sessionstorage">See alert session information</a>)</li>
+                      <li>The global alert is not fixed. It will scroll with the page. </li>
+                    </ul>
+                  </li> 
+                    <li>Content: 
+                      <ul>
+                        <li>Link option: The global alert may have a link or a button.</li>
+                      </ul>
+                    </li>
+                    <li>Placement: 
+                      <ul>
+                    <li>The global alert will be present on every application page. </li>
+                    <li>The global alert will be placed directly below the global top nav.  </li>
+                      </ul>
+                    </li>
+                   
+                    </ul>
+                    
+                </div>
+                </div>
+                
+                <br/><br/><hr/><br/><br/>
+
+                <div class="row">
+                    <div class="col-md-8">
+
+                  <h3>Page-Level Alerts</h3>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Alerts - Page - Button.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Button - Error.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Button - Warning.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Button - Success.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Page - Button - Info.png">
+
+
+                </div>
+                <div class="col-md-4">
+                  <br/><br/>
+                    <ul><li>Types:<ul><li>High alert (Red) – This could signify user error or critical information</li><li>Medium priority (Yellow) - System outage, user action required, planned system outage</li><li>Low priority (Blue) – Information message, supplemental info, alternative to tool tip</li></ul></li><li>Interaction:<ul><li>The user can close the page-level alert.</li><li>Once closed, the alert will no longer be present during the user’s session. See alert session information.</li></ul></li><li>Content:<ul><li>Link option: The page-level alert may have a link or a button.</li></ul></li><li>Placement:<ul><li>The page-level alert can be posted to the homepage, or any secondary page, depending on which page(s) are effected.</li><li>Page-level alert will be added only to page(s) effected</li><li>For both the homepage and the secondary pages, the page-level alert will be placed at the top of page, under the global top nav.</li></ul></li><li>Number of alerts:&nbsp;<ul><li>The site can have both a system-level alert on the homepage and a page-level alert on the homepage. There may be multiple system and page-level alerts presented at the same time.</li></ul></li><li>Priority:&nbsp;<ul><li>System-level alerts would take priority of placement above any page-level alerts that exist on the homepage. System-level alerts are only shown on the homepage.</li></ul></li></ul>
+                </div>
+                </div>
+
+                <br/><br/><hr/><br/><br/>
+
+                <div class="row">
+                    <div class="col-md-8">
+
+                  <h3>Component-Level Alerts</h3>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Alerts - Component.png">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Component - Error.png" style="max-width: 70%;">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Component - Warning.png" style="max-width: 70%;">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Component - Success.png" style="max-width: 70%;">
+                  <br/><br/>
+                  <img class="img-fluid" src="../assets/component-comps/alerts/BC2-1808 - Component - Info.png" style="max-width: 70%;">
+
+
+                </div>
+                <div class="col-md-4">
+                  <br/><br/>
+                  <ul><li>Types: <ul><li>High alert (Red) – This could signify user error or critical information</li><li>Medium priority (Yellow) - System outage, user action required, planned system outage</li><li>Low priority (Blue) – Information message, supplemental info, alternative to tool tip.</li><li>Success message (green) </li></ul></li><li>Interaction: <ul><li>The user will not be able to close the component level alerts/notifications. </li><li>High alert (Red) error messages will remain until the user has submitted the corrections/valid entries. Once the valid entries are submitted, the user will receive the green confirmation message. The green confirmation message will remain during the user’s session until logout. </li><li>If the form submission has valid entries – the green confirmation message will be shown. The green confirmation message will remain during that user’s session until logout. </li></ul></li><li>Content: <ul><li>The component alert may have a link or button at the end of the alert.</li></ul></li><li>Placement: <ul><li>The component alert/notification will be at the top of the component, underneath the component title. </li><li>If there are tabs within the component, the alert/notification will be placed underneath the tabs.&nbsp;</li></ul></li></ul>
+                </div>
+                </div>
+
+                <hr/>
+
+                <div id="sessionstorage"></div>
+                <h3>Alert Session Storage Information</h3>
+                  <ul><li>Component-level alert:&nbsp;<ul><li>User will not be able to close out of a component-level notification.&nbsp;</li><li>The notification will not have an ‘x’ to close the notification.</li></ul></li><li>System-level and Page-level alerts:&nbsp;<ul><li>User will be able to close out of a system-level and page-level alerts.&nbsp;</li><li>The alert will have an ‘x’ that the user can click to close the alert.&nbsp;</li><li>If a user closes out the alert, the alert should not appear as long as they are logged in to that session.&nbsp;</li><li>If the user closes the alert, then closes the browser window, then opens a new window &amp; logs back in – they will see the alert, again – as long as the alert is within the timeframe of how long it should exist on the app (provided by business).&nbsp;</li><li>If the user closes the alert, then reloads the page, the alert should not re-appear. The alert is dismissed for as long as you are logged in to that session.</li><li>If the user closes the alert, they will not have a way to access the alerts while in that session.</li></ul></li></ul>
+                
+                  <hr/>
+                  <div id="contentguidelines"></div>
+                  <h3>Content Guidelines</h3>
+                  <ul><li>Alerts should be direct and concise.<ul><li>Start confirmation alerts with a 2-3 word statement <ul><li>Example: Password updated.; Message sent.; etc. </li></ul></li><li>A second sentence can add more context or instructions.<ul><li>Example: Plan linked. Your additional plan information will appear in your current Blue Connect account.</li></ul></li></ul></li><li>Use standard hyperlinking practices within the text when necessary. Alternatively, a hyperlink with text in a call-to-action format can be placed at the end of the message. <ul><li>Example: Your current email address is returning Blue Cross NC emails as spam. &lt;Change Email&gt;</li></ul></li><li>Follow up with additional instructions where necessary, particularly error messages<ul><li>Example: The information you entered is not correct. Please try again.</li></ul></li></ul>
+                
                 
               </div>
 
-              <br/><br/>
-              <a class="btn btn-outline"
-                  href="https://vuetifyjs.com/en/components/alerts"
-                  target="_blank">View Vuetify Documentation <i class="material-icons">open_in_new</i></a>
+             
             </div>
 
 
-            <!-- <div class="col-md-12">
-              <div class="places-buttons">
-                <div class="row">
-                  <div class="col-md-6 ml-auto mr-auto text-center">
-                    <h4 class="card-title">
-                      Notifications Places
-                      <p class="category">Click to view notifications</p>
-                    </h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-8 col-md-10 ml-auto mr-auto">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('top','left')">Top Left</button>
-                      </div>
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('top','center')">Top Center</button>
-                      </div>
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('top','right')">Top Right</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-8 col-md-10 ml-auto mr-auto">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('bottom','left')">Bottom Left</button>
-                      </div>
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('bottom','center')">Bottom Center</button>
-                      </div>
-                      <div class="col-md-4">
-                        <button class="btn btn-primary btn-block" onclick="md.showNotification('bottom','right')">Bottom Right</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+           
 
 
           </div>
