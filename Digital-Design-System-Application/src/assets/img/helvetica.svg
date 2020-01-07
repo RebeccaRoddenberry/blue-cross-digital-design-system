@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="528px" height="257px" viewBox="0 0 528 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>helvetica</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="HelveticaNeue-UltraLight, Helvetica Neue" font-size="47" font-weight="200" letter-spacing="0.8">
+        <g id="Artboard" transform="translate(-107.000000, -89.000000)" fill="#000000">
+            <text id="helvetica">
+                <tspan x="105" y="123">Helvetica Neue UltraLight</tspan>
+                <tspan x="105" y="177" font-family="HelveticaNeue-Light, Helvetica Neue" font-weight="300">Helvetica Neue Light</tspan>
+                <tspan x="537.185" y="177"></tspan>
+                <tspan x="105" y="232" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">Helvetica Neue Regular</tspan>
+                <tspan x="615.207" y="232"></tspan>
+                <tspan x="105" y="287" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">Helvetica Neue Medium</tspan>
+                <tspan x="638.095" y="287"></tspan>
+                <tspan x="105" y="343" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Helvetica Neue Bold</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
